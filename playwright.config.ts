@@ -1,7 +1,14 @@
+import { createHash } from "node:crypto";
 import { defineConfig } from "@playwright/test";
 
 const BASE_URL = process.env.BASE_URL;
 const PORT = 3100;
+
+// Accès réservé : compte de test pour le serveur local ; pour un site en ligne,
+// fournir QCM_UTILISATEUR et QCM_MOT_DE_PASSE (un des comptes réels).
+const UTILISATEUR = process.env.QCM_UTILISATEUR ?? "test-e2e";
+const MOT_DE_PASSE = process.env.QCM_MOT_DE_PASSE ?? "mot-de-passe-de-test";
+const QCM_ACCES = `${UTILISATEUR}:${createHash("sha256").update(MOT_DE_PASSE).digest("hex")}`;
 
 export default defineConfig({
   testDir: "tests/e2e",
@@ -18,6 +25,7 @@ export default defineConfig({
     locale: "fr-FR",
     timezoneId: "Europe/Paris",
     trace: "off",
+    httpCredentials: { username: UTILISATEUR, password: MOT_DE_PASSE },
   },
   projects: [
     // Les tests marqués @desktop-seul / @mobile-seul (captures) ne tournent que sur leur projet.
@@ -31,6 +39,7 @@ export default defineConfig({
         command: `npm run build && npm run start -- -p ${PORT}`,
         url: `http://localhost:${PORT}`,
         reuseExistingServer: false,
+        env: { QCM_ACCES },
         timeout: 240_000,
       },
 });

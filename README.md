@@ -67,6 +67,26 @@ Attention : la progression des utilisateurs est rattachée aux ids. Changer l'id
 
 Le site est configuré pour ne pas être indexé par les moteurs de recherche (`noindex`). Toute personne qui a le lien peut néanmoins l'ouvrir.
 
+## Accès réservé (comptes)
+
+Le site est une application interne : chaque page demande un identifiant et un mot de passe (fenêtre standard du navigateur). Les comptes sont définis dans la variable d'environnement Vercel `QCM_ACCES`, jamais dans le code :
+
+```
+QCM_ACCES = identifiant1:empreinte1,identifiant2:empreinte2
+```
+
+L'empreinte est le SHA-256 du mot de passe. Pour la calculer sur Mac :
+
+```bash
+printf '%s' 'le-mot-de-passe' | shasum -a 256
+```
+
+Ajouter, retirer un compte ou changer un mot de passe : Vercel → projet `qcm-pedagogie` → Settings → Environment Variables → modifier `QCM_ACCES`, puis Deployments → « Redeploy ».
+
+- Sans `QCM_ACCES`, le site en ligne répond « Accès non configuré » (fermé par sécurité) ; en local (`npm run dev`), il reste ouvert.
+- Pour changer d'utilisateur sur un même navigateur, fermer complètement le navigateur. La progression est rangée par navigateur : deux personnes qui partagent le même navigateur partagent aussi la progression.
+- Tests sur le site en ligne : `QCM_UTILISATEUR=… QCM_MOT_DE_PASSE=… BASE_URL=https://qcm-pedagogie.vercel.app npm run test:e2e`.
+
 ## Bon à savoir
 
 - La progression est propre à chaque navigateur et appareil ; pour la transférer : Statistiques → « Exporter ma progression », puis « Importer une progression » sur l'autre appareil.

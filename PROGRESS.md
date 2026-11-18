@@ -12,7 +12,10 @@
 
 - Mission 2 — Mise en ligne (à ta demande) : code poussé sur GitHub `takhssit/qcm` (branche `claude/laughing-mayer-68u1t6`), projet Vercel `qcm-pedagogie` (équipe Syntevo) relié au dépôt. En ligne : https://qcm-pedagogie.vercel.app. Chaque push sur cette branche redéploie le site.
 
+- Accès réservé (demande du 18/11, sans Supabase) : authentification HTTP Basic dans `proxy.ts`, comptes dans la variable Vercel `QCM_ACCES` (identifiant + empreinte SHA-256, aucun mot de passe en clair), logique dans `lib/acces.ts` (4 tests unitaires), tests e2e d'accès (`tests/e2e/acces.spec.ts`). verify : 30/30 unitaires, 61/61 e2e.
+
 ## Reste à faire
+- Recevoir les 2 identifiants, créer les mots de passe, renseigner `QCM_ACCES` sur Vercel, puis pousser le code (avant ce réglage, pousser fermerait le site).
 - Relancer les tests e2e contre l'adresse en ligne (`BASE_URL=https://qcm-pedagogie.vercel.app npm run test:e2e`) : impossible depuis l'environnement cloud, qui n'a pas le droit d'ouvrir les adresses vercel.app.
 
 ## Décisions
@@ -32,6 +35,8 @@
 - Le compteur desktop « N bonnes sur M » compte les questions précédant la question affichée (comme la maquette 09).
 - Cases de la grille d'examen (14 px de haut, 20 par ligne) : exception assumée à la règle des 44 px (WCAG 2.5.8 : les boutons Précédente/Suivante offrent la même fonction) ; elles portent `data-petite-cible` et sont exclues du test de taille.
 - La date réelle du 18 novembre 2026 est un mercredi (la maquette indique « Mardi ») : les dates affichées sont calculées.
+
+- Accès : choix de l'authentification HTTP Basic (fenêtre du navigateur) plutôt qu'une page de connexion : aucune dépendance, aucune base de données, protège aussi les fichiers JS qui contiennent les questions. Pas de bouton « Se déconnecter » (fermer le navigateur). Progression toujours par navigateur, pas par compte.
 
 ## Blocages
 - Aucun en cours. Résolus pendant la boucle finale : (1) ESLint prenait le paramètre `use` des fixtures Playwright pour un hook React → renommé ; (2) un test d'examen figeait l'horloge avant le chargement de la page, ce qui bloquait parfois l'affichage → l'horloge est figée après l'affichage (test répété 24 fois puis suite complète ×2 : 114/114).
