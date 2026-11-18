@@ -15,7 +15,7 @@
 - Accès réservé (demande du 18/11, sans Supabase) : authentification HTTP Basic dans `proxy.ts`, comptes dans la variable Vercel `QCM_ACCES` (identifiant + empreinte SHA-256, aucun mot de passe en clair), logique dans `lib/acces.ts` (4 tests unitaires), tests e2e d'accès (`tests/e2e/acces.spec.ts`). verify : 30/30 unitaires, 61/61 e2e.
 
 ## Reste à faire
-- Recevoir les 2 identifiants, créer les mots de passe, renseigner `QCM_ACCES` sur Vercel, puis pousser le code (avant ce réglage, pousser fermerait le site).
+- Fait : comptes `hind` et `souf` enregistrés dans la variable Vercel `QCM_ACCES` (empreintes fournies par toi, mots de passe jamais transmis), production redéployée.
 - Relancer les tests e2e contre l'adresse en ligne (`BASE_URL=https://qcm-pedagogie.vercel.app npm run test:e2e`) : impossible depuis l'environnement cloud, qui n'a pas le droit d'ouvrir les adresses vercel.app.
 
 ## Décisions
