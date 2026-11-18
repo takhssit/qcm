@@ -10,8 +10,10 @@
 
 - Boucle finale : `npm run verify` vert deux fois de suite (lint 0 erreur, 26/26 tests unitaires, build OK, 57/57 tests e2e mobile + desktop). Commit local fait (sans push).
 
+- Mission 2 — Mise en ligne (à ta demande) : code poussé sur GitHub `takhssit/qcm` (branche `claude/laughing-mayer-68u1t6`), projet Vercel `qcm-pedagogie` (équipe Syntevo) relié au dépôt. En ligne : https://qcm-pedagogie.vercel.app. Chaque push sur cette branche redéploie le site.
+
 ## Reste à faire
-- Mission 2 : mise en ligne (dépôt GitHub + Vercel), avec ton accord.
+- Relancer les tests e2e contre l'adresse en ligne (`BASE_URL=https://qcm-pedagogie.vercel.app npm run test:e2e`) : impossible depuis l'environnement cloud, qui n'a pas le droit d'ouvrir les adresses vercel.app.
 
 ## Décisions
 - `cacheComponents` / `partialPrefetching` (activés par défaut par create-next-app 16.4) retirés de `next.config.ts` : tout le site lit la progression dans le navigateur, ces options n'apportent rien et ajoutent des contraintes.
