@@ -1,0 +1,2134 @@
+{
+ "version": 1,
+ "debut": "2026-11-03T08:00:00.000Z",
+ "questions": {
+  "Q001": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q002": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q003": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q004": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q005": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q006": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q007": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q008": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q009": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q109": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q110": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q111": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q112": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q113": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q114": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q115": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q116": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q117": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q217": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q010": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q011": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q012": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q013": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q014": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q015": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q016": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q017": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q018": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q118": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q119": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q120": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q121": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q122": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q123": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q124": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q019": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q020": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q021": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q022": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q023": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q024": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q025": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q026": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q027": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q127": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q128": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q129": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-18T09:15:00.000Z"
+  },
+  "Q028": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q029": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q030": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q031": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q032": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q033": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q034": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q035": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q036": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q136": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q137": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q138": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q139": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q140": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q141": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q142": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q143": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-16T09:15:00.000Z"
+  },
+  "Q037": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q038": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q039": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q040": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q041": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q042": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q043": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q044": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q045": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q145": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q146": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q147": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q148": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q149": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q150": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q151": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q152": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-15T09:15:00.000Z"
+  },
+  "Q046": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q047": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q048": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q049": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q050": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q051": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q052": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q053": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q054": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q154": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q055": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q056": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q057": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q058": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q059": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q060": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q061": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q062": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q063": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q163": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q164": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q165": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q166": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q167": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q168": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q169": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q170": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q171": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q271": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q272": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-14T09:15:00.000Z"
+  },
+  "Q064": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-13T09:15:00.000Z"
+  },
+  "Q065": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-13T09:15:00.000Z"
+  },
+  "Q066": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-13T09:15:00.000Z"
+  },
+  "Q067": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-13T09:15:00.000Z"
+  },
+  "Q068": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-13T09:15:00.000Z"
+  },
+  "Q069": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-13T09:15:00.000Z"
+  },
+  "Q070": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-13T09:15:00.000Z"
+  },
+  "Q071": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-13T09:15:00.000Z"
+  },
+  "Q072": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-13T09:15:00.000Z"
+  },
+  "Q172": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-13T09:15:00.000Z"
+  },
+  "Q173": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-13T09:15:00.000Z"
+  },
+  "Q174": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-13T09:15:00.000Z"
+  },
+  "Q175": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-13T09:15:00.000Z"
+  },
+  "Q176": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-13T09:15:00.000Z"
+  },
+  "Q073": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q074": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q075": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q076": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q077": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q078": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q079": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q080": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q081": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q181": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q182": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q183": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q184": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q185": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q186": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q187": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q188": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q189": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-12T09:15:00.000Z"
+  },
+  "Q082": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q083": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q084": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q085": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q086": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q087": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q088": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q089": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q090": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q190": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q191": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-17T09:15:00.000Z"
+  },
+  "Q091": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q092": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q093": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q094": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q095": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q096": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q097": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q098": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q099": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q199": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q200": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q201": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 3,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q202": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q203": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 2,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q204": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-11T09:15:00.000Z"
+  },
+  "Q100": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q101": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q102": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q103": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q104": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q105": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q106": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 1,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q107": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q108": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q208": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q209": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q210": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q211": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q212": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q213": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 2,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q214": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q215": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q216": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q316": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 3,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q317": {
+   "tentatives": 2,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q318": {
+   "tentatives": 1,
+   "reussites": 1,
+   "derniereReponse": 0,
+   "derniereJuste": true,
+   "serie": 1,
+   "vueLe": "2026-11-10T09:15:00.000Z"
+  },
+  "Q266": {
+   "tentatives": 1,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-18T09:40:00.000Z"
+  },
+  "Q236": {
+   "tentatives": 1,
+   "reussites": 0,
+   "derniereReponse": 0,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-18T09:40:00.000Z"
+  },
+  "Q302": {
+   "tentatives": 1,
+   "reussites": 0,
+   "derniereReponse": 1,
+   "derniereJuste": false,
+   "serie": 0,
+   "vueLe": "2026-11-18T09:40:00.000Z"
+  }
+ },
+ "erreurs": [
+  "Q008",
+  "Q009",
+  "Q117",
+  "Q217",
+  "Q017",
+  "Q018",
+  "Q121",
+  "Q122",
+  "Q123",
+  "Q124",
+  "Q024",
+  "Q302",
+  "Q236",
+  "Q266"
+ ],
+ "parcours": {
+  "derniereOrdre": 127
+ },
+ "jours": {
+  "2026-11-03": 120,
+  "2026-11-04": 120,
+  "2026-11-05": 120,
+  "2026-11-06": 120,
+  "2026-11-07": 120,
+  "2026-11-08": 119,
+  "2026-11-09": 119,
+  "2026-11-10": 119,
+  "2026-11-11": 119,
+  "2026-11-13": 24,
+  "2026-11-14": 40,
+  "2026-11-15": 12,
+  "2026-11-16": 20,
+  "2026-11-17": 36,
+  "2026-11-18": 40
+ },
+ "examens": [
+  {
+   "date": "2026-11-04T18:00:00.000Z",
+   "bonnes": 24,
+   "total": 40,
+   "dureeSec": 2285,
+   "parNiveau": {
+    "facile": {
+     "bonnes": 10,
+     "total": 12
+    },
+    "moyen": {
+     "bonnes": 9,
+     "total": 16
+    },
+    "difficile": {
+     "bonnes": 5,
+     "total": 12
+    }
+   },
+   "reponses": [
+    {
+     "id": "Q009",
+     "choix": 0
+    },
+    {
+     "id": "Q018",
+     "choix": 0
+    },
+    {
+     "id": "Q027",
+     "choix": 2
+    },
+    {
+     "id": "Q036",
+     "choix": 3
+    },
+    {
+     "id": "Q045",
+     "choix": 3
+    },
+    {
+     "id": "Q054",
+     "choix": 0
+    },
+    {
+     "id": "Q063",
+     "choix": 0
+    },
+    {
+     "id": "Q072",
+     "choix": 3
+    },
+    {
+     "id": "Q081",
+     "choix": 2
+    },
+    {
+     "id": "Q090",
+     "choix": 2
+    },
+    {
+     "id": "Q099",
+     "choix": 0
+    },
+    {
+     "id": "Q108",
+     "choix": 1
+    },
+    {
+     "id": "Q117",
+     "choix": 1
+    },
+    {
+     "id": "Q116",
+     "choix": 0
+    },
+    {
+     "id": "Q126",
+     "choix": 3
+    },
+    {
+     "id": "Q125",
+     "choix": 2
+    },
+    {
+     "id": "Q135",
+     "choix": 2
+    },
+    {
+     "id": "Q134",
+     "choix": 1
+    },
+    {
+     "id": "Q144",
+     "choix": 3
+    },
+    {
+     "id": "Q143",
+     "choix": 2
+    },
+    {
+     "id": "Q153",
+     "choix": 1
+    },
+    {
+     "id": "Q162",
+     "choix": 2
+    },
+    {
+     "id": "Q171",
+     "choix": 2
+    },
+    {
+     "id": "Q180",
+     "choix": 3
+    },
+    {
+     "id": "Q189",
+     "choix": 3
+    },
+    {
+     "id": "Q198",
+     "choix": 2
+    },
+    {
+     "id": "Q207",
+     "choix": 2
+    },
+    {
+     "id": "Q216",
+     "choix": 0
+    },
+    {
+     "id": "Q225",
+     "choix": 3
+    },
+    {
+     "id": "Q234",
+     "choix": 3
+    },
+    {
+     "id": "Q243",
+     "choix": 1
+    },
+    {
+     "id": "Q252",
+     "choix": 0
+    },
+    {
+     "id": "Q261",
+     "choix": 2
+    },
+    {
+     "id": "Q270",
+     "choix": 3
+    },
+    {
+     "id": "Q279",
+     "choix": 1
+    },
+    {
+     "id": "Q288",
+     "choix": 3
+    },
+    {
+     "id": "Q297",
+     "choix": 0
+    },
+    {
+     "id": "Q306",
+     "choix": 2
+    },
+    {
+     "id": "Q315",
+     "choix": 2
+    },
+    {
+     "id": "Q324",
+     "choix": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-11-11T18:30:00.000Z",
+   "bonnes": 27,
+   "total": 40,
+   "dureeSec": 2200,
+   "parNiveau": {
+    "facile": {
+     "bonnes": 11,
+     "total": 12
+    },
+    "moyen": {
+     "bonnes": 11,
+     "total": 16
+    },
+    "difficile": {
+     "bonnes": 5,
+     "total": 12
+    }
+   },
+   "reponses": [
+    {
+     "id": "Q009",
+     "choix": 0
+    },
+    {
+     "id": "Q018",
+     "choix": 0
+    },
+    {
+     "id": "Q027",
+     "choix": 2
+    },
+    {
+     "id": "Q036",
+     "choix": 3
+    },
+    {
+     "id": "Q045",
+     "choix": 3
+    },
+    {
+     "id": "Q054",
+     "choix": 0
+    },
+    {
+     "id": "Q063",
+     "choix": 0
+    },
+    {
+     "id": "Q072",
+     "choix": 3
+    },
+    {
+     "id": "Q081",
+     "choix": 2
+    },
+    {
+     "id": "Q090",
+     "choix": 2
+    },
+    {
+     "id": "Q099",
+     "choix": 3
+    },
+    {
+     "id": "Q108",
+     "choix": 1
+    },
+    {
+     "id": "Q117",
+     "choix": 1
+    },
+    {
+     "id": "Q116",
+     "choix": 0
+    },
+    {
+     "id": "Q126",
+     "choix": 3
+    },
+    {
+     "id": "Q125",
+     "choix": 2
+    },
+    {
+     "id": "Q135",
+     "choix": 2
+    },
+    {
+     "id": "Q134",
+     "choix": 1
+    },
+    {
+     "id": "Q144",
+     "choix": 3
+    },
+    {
+     "id": "Q143",
+     "choix": 2
+    },
+    {
+     "id": "Q153",
+     "choix": 1
+    },
+    {
+     "id": "Q162",
+     "choix": 2
+    },
+    {
+     "id": "Q171",
+     "choix": 2
+    },
+    {
+     "id": "Q180",
+     "choix": 3
+    },
+    {
+     "id": "Q189",
+     "choix": 3
+    },
+    {
+     "id": "Q198",
+     "choix": 1
+    },
+    {
+     "id": "Q207",
+     "choix": 1
+    },
+    {
+     "id": "Q216",
+     "choix": 0
+    },
+    {
+     "id": "Q225",
+     "choix": 3
+    },
+    {
+     "id": "Q234",
+     "choix": 3
+    },
+    {
+     "id": "Q243",
+     "choix": 1
+    },
+    {
+     "id": "Q252",
+     "choix": 0
+    },
+    {
+     "id": "Q261",
+     "choix": 2
+    },
+    {
+     "id": "Q270",
+     "choix": 3
+    },
+    {
+     "id": "Q279",
+     "choix": 1
+    },
+    {
+     "id": "Q288",
+     "choix": 3
+    },
+    {
+     "id": "Q297",
+     "choix": 0
+    },
+    {
+     "id": "Q306",
+     "choix": 2
+    },
+    {
+     "id": "Q315",
+     "choix": 2
+    },
+    {
+     "id": "Q324",
+     "choix": 3
+    }
+   ]
+  },
+  {
+   "date": "2026-11-18T09:20:00.000Z",
+   "bonnes": 31,
+   "total": 40,
+   "dureeSec": 1992,
+   "parNiveau": {
+    "facile": {
+     "bonnes": 11,
+     "total": 12
+    },
+    "moyen": {
+     "bonnes": 13,
+     "total": 16
+    },
+    "difficile": {
+     "bonnes": 7,
+     "total": 12
+    }
+   },
+   "reponses": [
+    {
+     "id": "Q054",
+     "choix": 0
+    },
+    {
+     "id": "Q162",
+     "choix": 3
+    },
+    {
+     "id": "Q270",
+     "choix": 3
+    },
+    {
+     "id": "Q269",
+     "choix": 2
+    },
+    {
+     "id": "Q090",
+     "choix": 2
+    },
+    {
+     "id": "Q198",
+     "choix": 1
+    },
+    {
+     "id": "Q306",
+     "choix": 2
+    },
+    {
+     "id": "Q305",
+     "choix": 1
+    },
+    {
+     "id": "Q027",
+     "choix": 3
+    },
+    {
+     "id": "Q135",
+     "choix": 2
+    },
+    {
+     "id": "Q134",
+     "choix": 0
+    },
+    {
+     "id": "Q243",
+     "choix": 2
+    },
+    {
+     "id": "Q009",
+     "choix": 0
+    },
+    {
+     "id": "Q008",
+     "choix": 1
+    },
+    {
+     "id": "Q018",
+     "choix": 0
+    },
+    {
+     "id": "Q017",
+     "choix": 1
+    },
+    {
+     "id": "Q036",
+     "choix": 3
+    },
+    {
+     "id": "Q045",
+     "choix": 3
+    },
+    {
+     "id": "Q063",
+     "choix": 0
+    },
+    {
+     "id": "Q072",
+     "choix": 3
+    },
+    {
+     "id": "Q081",
+     "choix": 2
+    },
+    {
+     "id": "Q117",
+     "choix": 1
+    },
+    {
+     "id": "Q116",
+     "choix": 3
+    },
+    {
+     "id": "Q126",
+     "choix": 3
+    },
+    {
+     "id": "Q144",
+     "choix": 3
+    },
+    {
+     "id": "Q143",
+     "choix": 1
+    },
+    {
+     "id": "Q153",
+     "choix": 1
+    },
+    {
+     "id": "Q152",
+     "choix": 3
+    },
+    {
+     "id": "Q171",
+     "choix": 2
+    },
+    {
+     "id": "Q180",
+     "choix": 3
+    },
+    {
+     "id": "Q179",
+     "choix": 3
+    },
+    {
+     "id": "Q189",
+     "choix": 3
+    },
+    {
+     "id": "Q207",
+     "choix": 1
+    },
+    {
+     "id": "Q225",
+     "choix": 3
+    },
+    {
+     "id": "Q234",
+     "choix": 3
+    },
+    {
+     "id": "Q252",
+     "choix": 0
+    },
+    {
+     "id": "Q261",
+     "choix": 2
+    },
+    {
+     "id": "Q279",
+     "choix": 0
+    },
+    {
+     "id": "Q288",
+     "choix": 2
+    },
+    {
+     "id": "Q297",
+     "choix": 3
+    }
+   ]
+  }
+ ]
+}

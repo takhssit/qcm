@@ -1,0 +1,272 @@
+@import "tailwindcss";
+
+/* Tokens de docs/DESIGN.md */
+:root {
+  --ground: #f3f5f9;
+  --surface: #ffffff;
+  --ink: #172041;
+  --ink-2: #4b5470;
+  --ink-3: #5b6482;
+  --on-ink-2: #c9d0e6;
+  --line: #dde2ec;
+  --line-2: #e6eaf2;
+  --line-choice: #d3d9e6;
+  --marker: #ffe45c;
+  --pen: #c4283a;
+  --pen-text: #a3192b;
+  --lvl-1: #a6e9f5;
+  --lvl-2: #ffc978;
+  --lvl-3: #ffa8d6;
+  --shadow-action: 0 2px 8px rgba(23, 32, 65, 0.06);
+}
+
+@theme inline {
+  --color-ground: var(--ground);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-on-ink-2: var(--on-ink-2);
+  --color-line: var(--line);
+  --color-line-2: var(--line-2);
+  --color-line-choice: var(--line-choice);
+  --color-marker: var(--marker);
+  --color-pen: var(--pen);
+  --color-pen-text: var(--pen-text);
+  --color-lvl-1: var(--lvl-1);
+  --color-lvl-2: var(--lvl-2);
+  --color-lvl-3: var(--lvl-3);
+  --font-sans: var(--font-atkinson), system-ui, sans-serif;
+  --shadow-action: var(--shadow-action);
+}
+
+@layer base {
+html {
+  background: var(--ground);
+  /* interlignage des maquettes (Tailwind impose 1.5 par défaut) */
+  line-height: normal;
+}
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--font-atkinson), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--marker);
+  color: var(--ink);
+}
+
+a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
+
+}
+
+@layer components {
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Geste signature : le surligneur ---------- */
+.marker,
+.hl {
+  background-image: linear-gradient(
+    100deg,
+    rgba(255, 228, 92, 0) 0.6%,
+    #ffe45c 2.4%,
+    rgba(255, 228, 92, 0.85) 8%,
+    rgba(255, 228, 92, 0.74) 92%,
+    #ffe45c 97%,
+    rgba(255, 228, 92, 0) 99.4%
+  );
+  background-repeat: no-repeat;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  border-radius: 7px 3px 8px 4px;
+  padding: 1px 5px;
+  margin: 0 -5px;
+}
+.marker {
+  background-size: 0% 100%;
+  transition: background-size 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.marker-on {
+  background-size: 100% 100%;
+}
+.hl {
+  background-size: 100% 100%;
+}
+.hl-note {
+  padding: 1px 6px;
+  margin: 0 -6px;
+}
+
+/* Barres de progression : trait de surligneur sur une piste --line-2 */
+.track {
+  height: var(--h, 12px);
+  border-radius: 7px;
+  background: var(--line-2);
+  overflow: hidden;
+}
+.track-dark {
+  background: rgba(255, 255, 255, 0.14);
+}
+.stroke {
+  height: 100%;
+  border-radius: 7px 3px 8px 3px;
+  background-image: linear-gradient(
+    100deg,
+    rgba(255, 228, 92, 0.35) 0%,
+    #ffe45c 4%,
+    rgba(255, 228, 92, 0.82) 55%,
+    #ffe45c 96%,
+    rgba(255, 228, 92, 0.4) 100%
+  );
+}
+
+/* ---------- Choix de réponse ---------- */
+.choice {
+  width: 100%;
+  min-height: 62px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  text-align: left;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1.5px solid var(--line-choice);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.45;
+  cursor: pointer;
+  transition:
+    border-color 0.18s ease-out,
+    background-color 0.18s ease-out,
+    color 0.18s ease-out;
+}
+.choice:hover {
+  border-color: #8b93ae;
+}
+.choice .letter {
+  flex: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  border: 1.5px solid #b9c0d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  transition:
+    background-color 0.18s ease-out,
+    border-color 0.18s ease-out,
+    color 0.18s ease-out;
+}
+.choice .body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 3px;
+}
+.choice[data-etat="choisi"] {
+  border-color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--ink);
+}
+.choice[data-etat="choisi"] .letter {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+.choice[data-etat="correct"] {
+  border-color: var(--ink);
+  cursor: default;
+}
+.choice[data-etat="correct"][data-choisi="true"] {
+  box-shadow: inset 0 0 0 1px var(--ink);
+}
+.choice[data-etat="correct"] .letter {
+  background: var(--marker);
+  border-color: var(--ink);
+}
+.choice[data-etat="faux"] {
+  border-color: var(--pen);
+  color: var(--pen-text);
+  cursor: default;
+}
+.choice[data-etat="faux"] .letter {
+  background: var(--pen);
+  border-color: var(--pen);
+  color: #fff;
+}
+.choice[data-etat="ecarte"] {
+  color: var(--ink-3);
+  cursor: default;
+}
+.choice[data-etat="ecarte"]:hover {
+  border-color: var(--line-choice);
+}
+.choice[data-etat="correct"]:hover {
+  border-color: var(--ink);
+}
+.choice[data-etat="faux"]:hover {
+  border-color: var(--pen);
+}
+@media (min-width: 1024px) {
+  .choice {
+    gap: 14px;
+    padding: 16px 18px;
+    font-size: 17px;
+  }
+  .choice .letter {
+    width: 32px;
+    height: 32px;
+    font-size: 15px;
+  }
+}
+
+kbd {
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  min-width: 26px;
+  height: 26px;
+  padding: 0 7px;
+  border-radius: 7px;
+  border: 1px solid #c9cfdd;
+  border-bottom-width: 2px;
+  background: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+dialog::backdrop {
+  background: rgba(23, 32, 65, 0.45);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marker,
+  .choice,
+  .choice .letter {
+    transition: none;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0s !important;
+    animation-duration: 0s !important;
+  }
+}
+}

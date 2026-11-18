@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Entraînement — filtres — maquette</title>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F3F5F9}
+*{box-sizing:border-box}
+::selection{background:#FFE45C;color:#172041}
+a{color:#172041;text-underline-offset:3px}a:hover{color:#2A3870}
+button,a{font-family:inherit}
+:focus-visible{outline:3px solid #172041;outline-offset:2px}
+.hl{background-image:linear-gradient(100deg,rgba(255,228,92,0) .6%,#FFE45C 2.4%,rgba(255,228,92,.82) 8%,rgba(255,228,92,.72) 92%,#FFE45C 97%,rgba(255,228,92,0) 99.4%);-webkit-box-decoration-break:clone;box-decoration-break:clone;border-radius:7px 3px 8px 4px;padding:1px 5px;margin:0 -5px}
+.chip{height:44px;border-radius:12px;border:1.5px solid #D3D9E6;background:#FFFFFF;color:#172041;font-size:14px;display:flex;align-items:center;gap:8px;padding:0 12px;text-align:left;cursor:pointer}
+.chip.on{background:#172041;border-color:#172041;color:#FFFFFF;font-weight:700}
+.seg{height:44px;border:0;background:transparent;border-radius:10px;font-size:16px;font-weight:700;color:#4B5470;cursor:pointer}
+.seg.on{background:#FFFFFF;color:#172041;box-shadow:0 1px 3px rgba(23,32,65,.18)}
+</style>
+</head>
+<body>
+<div style="width: 390px; height: 844px; position: relative; overflow: hidden; background: #F3F5F9; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; color: #172041; display: flex; flex-direction: column">
+
+  <header style="background: #172041; color: #FFFFFF; padding: 22px 20px 20px; display: flex; flex-direction: column; gap: 4px">
+    <h1 style="margin: 0; font-size: 22px; font-weight: 700">Entraînement</h1>
+    <p style="margin: 0; font-size: 14px; color: #C9D0E6">Composez une série sur mesure, en ordre aléatoire</p>
+  </header>
+
+  <main style="flex: 1; overflow-y: auto; padding: 18px 16px 190px; display: flex; flex-direction: column; gap: 22px">
+
+    <section aria-labelledby="f-niveaux" style="display: flex; flex-direction: column; gap: 10px">
+      <h2 id="f-niveaux" style="margin: 0; font-size: 17px; font-weight: 700">Niveaux</h2>
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px">
+        <button type="button" aria-pressed="true" style="height: 64px; border-radius: 12px; border: 2px solid #172041; background: #FFFFFF; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 4px; padding: 0 12px; cursor: pointer; color: #172041">
+          <span style="display: flex; align-items: center; gap: 6px; font-size: 15px; font-weight: 700"><span style="width: 10px; height: 10px; border-radius: 3px; background: #A6E9F5; border: 1px solid #172041"></span>Facile</span>
+          <span style="font-size: 13px; color: #4B5470">108 questions</span>
+        </button>
+        <button type="button" aria-pressed="true" style="height: 64px; border-radius: 12px; border: 2px solid #172041; background: #FFFFFF; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 4px; padding: 0 12px; cursor: pointer; color: #172041">
+          <span style="display: flex; align-items: center; gap: 6px; font-size: 15px; font-weight: 700"><span style="width: 10px; height: 10px; border-radius: 3px; background: #FFC978; border: 1px solid #172041"></span>Moyen</span>
+          <span style="font-size: 13px; color: #4B5470">108 questions</span>
+        </button>
+        <button type="button" aria-pressed="false" style="height: 64px; border-radius: 12px; border: 1.5px solid #D3D9E6; background: #FFFFFF; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 4px; padding: 0 12px; cursor: pointer; color: #4B5470">
+          <span style="display: flex; align-items: center; gap: 6px; font-size: 15px; font-weight: 700"><span style="width: 10px; height: 10px; border-radius: 3px; background: #FFA8D6; border: 1px solid #4B5470"></span>Difficile</span>
+          <span style="font-size: 13px">108 questions</span>
+        </button>
+      </div>
+    </section>
+
+    <section aria-labelledby="f-chapitres" style="display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; justify-content: space-between; align-items: baseline">
+        <h2 id="f-chapitres" style="margin: 0; font-size: 17px; font-weight: 700">Chapitres <span style="font-weight: 400; color: #4B5470; font-size: 15px">· 4 sur 12</span></h2>
+        <button type="button" style="border: 0; background: none; padding: 10px 0; font-size: 15px; font-weight: 700; color: #172041; text-decoration: underline; text-underline-offset: 3px; cursor: pointer">Tout sélectionner</button>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px">
+        <button type="button" class="chip" aria-pressed="false">1 · Andragogie</button>
+        <button type="button" class="chip" aria-pressed="false">2 · APC</button>
+        <button type="button" class="chip on" aria-pressed="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17 19 7"></path></svg>3 · Charge cognitive</button>
+        <button type="button" class="chip" aria-pressed="false">4 · Métacognition</button>
+        <button type="button" class="chip on" aria-pressed="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17 19 7"></path></svg>5 · Scénario</button>
+        <button type="button" class="chip on" aria-pressed="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17 19 7"></path></svg>6 · Questionnement</button>
+        <button type="button" class="chip" aria-pressed="false">7 · Ludopédagogie</button>
+        <button type="button" class="chip" aria-pressed="false">8 · Différenciation</button>
+        <button type="button" class="chip" aria-pressed="false">9 · Inclusion</button>
+        <button type="button" class="chip on" aria-pressed="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17 19 7"></path></svg>10 · Transfert</button>
+        <button type="button" class="chip" aria-pressed="false">11 · Réflexivité</button>
+        <button type="button" class="chip" aria-pressed="false">12 · Déontologie</button>
+      </div>
+    </section>
+
+    <section aria-labelledby="f-nombre" style="display: flex; flex-direction: column; gap: 10px">
+      <h2 id="f-nombre" style="margin: 0; font-size: 17px; font-weight: 700">Nombre de questions</h2>
+      <div role="group" aria-label="Nombre de questions" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; padding: 4px; background: #E6EAF2; border-radius: 13px">
+        <button type="button" class="seg" aria-pressed="false">10</button>
+        <button type="button" class="seg on" aria-pressed="true">20</button>
+        <button type="button" class="seg" aria-pressed="false">40</button>
+      </div>
+    </section>
+  </main>
+
+  <div style="position: absolute; left: 0; right: 0; bottom: 76px; background: #FFFFFF; border-top: 1px solid #DDE2EC; padding: 12px 16px 14px; display: flex; flex-direction: column; gap: 10px">
+    <p style="margin: 0; font-size: 14px; color: #4B5470"><strong style="color: #172041">72 questions</strong> correspondent à votre sélection</p>
+    <a href="02-question-mobile.html" style="height: 52px; border-radius: 12px; background: #172041; color: #FFFFFF; text-decoration: none; font-size: 17px; font-weight: 700; display: flex; align-items: center; justify-content: center; gap: 10px">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15l12.5-7.5z"></path></svg>
+      Lancer 20 questions
+    </a>
+  </div>
+
+  <nav aria-label="Navigation principale" style="position: absolute; left: 0; right: 0; bottom: 0; height: 76px; background: #FFFFFF; border-top: 1px solid #DDE2EC; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); padding: 6px 4px 10px">
+    <a href="01-accueil-mobile.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-decoration: none; color: #5B6482; font-size: 12px">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"></path><path d="M5 9.5V21h14V9.5"></path></svg>
+      <span>Accueil</span>
+    </a>
+    <a href="04-entrainement-mobile.html" aria-current="page" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-decoration: none; color: #172041; font-size: 12px; font-weight: 700">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16"></path><path d="M7 12h10"></path><path d="M10 18h4"></path></svg>
+      <span class="hl">Entraîner</span>
+    </a>
+    <a href="05-examen-mobile.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-decoration: none; color: #5B6482; font-size: 12px">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"></circle><path d="M12 9v4l2.5 2.5"></path><path d="M9 2h6"></path></svg>
+      <span>Examen</span>
+    </a>
+    <a href="03-correction-mobile.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-decoration: none; color: #5B6482; font-size: 12px; position: relative">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"></path><path d="M3 3v5h5"></path></svg>
+      <span>Erreurs</span>
+      <span aria-label="14 erreurs à revoir" style="position: absolute; top: 2px; left: 50%; margin-left: 6px; min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px; background: #C4283A; color: #FFFFFF; font-size: 11px; font-weight: 700; display: flex; align-items: center; justify-content: center">14</span>
+    </a>
+    <a href="07-stats-mobile.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-decoration: none; color: #5B6482; font-size: 12px">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"></path><path d="M7 17v-6"></path><path d="M12 17V5"></path><path d="M17 17v-9"></path></svg>
+      <span>Stats</span>
+    </a>
+  </nav>
+</div>
+</body>
+</html>

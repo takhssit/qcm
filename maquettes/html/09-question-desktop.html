@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Question corrigée — desktop — maquette</title>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F3F5F9}
+*{box-sizing:border-box}
+::selection{background:#FFE45C;color:#172041}
+a{color:#172041;text-underline-offset:3px}a:hover{color:#2A3870}
+button,a{font-family:inherit}
+:focus-visible{outline:3px solid #172041;outline-offset:2px}
+.track{height:8px;border-radius:6px;background:#E6EAF2;overflow:hidden}
+.stroke{height:8px;border-radius:6px 3px 7px 3px;background-image:linear-gradient(100deg,rgba(255,228,92,.35) 0%,#FFE45C 4%,rgba(255,228,92,.82) 55%,#FFE45C 96%,rgba(255,228,92,.4) 100%)}
+.mark{background-image:linear-gradient(100deg,rgba(255,228,92,0) .6%,#FFE45C 2.4%,rgba(255,228,92,.85) 8%,rgba(255,228,92,.74) 92%,#FFE45C 97%,rgba(255,228,92,0) 99.4%);-webkit-box-decoration-break:clone;box-decoration-break:clone;border-radius:7px 3px 8px 4px;padding:1px 5px;margin:0 -5px}
+.opt{display:flex;gap:14px;padding:16px 18px;border-radius:14px;border:1.5px solid #D3D9E6;background:#FFFFFF;font-size:17px;line-height:1.45}
+.opt .l{flex:none;width:32px;height:32px;border-radius:9px;border:1.5px solid #B9C0D3;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px}
+kbd{font-family:inherit;font-size:13px;font-weight:700;min-width:26px;height:26px;padding:0 7px;border-radius:7px;border:1px solid #C9CFDD;border-bottom-width:2px;background:#FFFFFF;display:inline-flex;align-items:center;justify-content:center}
+</style>
+</head>
+<body>
+<div style="min-height: 100vh; background: #F3F5F9; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; color: #172041; display: flex; flex-direction: column">
+
+  <header style="background: #FFFFFF; border-bottom: 1px solid #DDE2EC; padding: 0 40px">
+    <div style="max-width: 1200px; margin: 0 auto; min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap">
+      <div style="display: flex; align-items: center; gap: 18px">
+        <a href="08-accueil-desktop.html" style="height: 44px; display: flex; align-items: center; gap: 6px; text-decoration: none; font-size: 16px; font-weight: 700">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg>
+          Tableau de bord
+        </a>
+        <span style="width: 1px; height: 24px; background: #DDE2EC"></span>
+        <p style="margin: 0; font-size: 16px">Entraînement · Question <strong>12</strong> sur 20</p>
+      </div>
+      <div style="flex: 0 1 360px; display: flex; align-items: center; gap: 12px">
+        <div class="track" style="flex: 1" role="progressbar" aria-label="Avancement de la série" aria-valuemin="0" aria-valuemax="20" aria-valuenow="12"><div class="stroke" style="width: 60%"></div></div>
+        <span style="font-size: 14px; color: #4B5470; font-variant-numeric: tabular-nums">9 bonnes sur 11</span>
+      </div>
+    </div>
+  </header>
+
+  <main style="flex: 1; padding: 40px 40px 64px">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start">
+
+      <section aria-labelledby="dq-titre" style="flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+        <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center">
+          <span style="background: #FFC978; font-size: 13px; font-weight: 700; padding: 3px 10px; border-radius: 999px">Moyen</span>
+          <span style="font-size: 15px; color: #4B5470">Chapitre 10 · Transfert des apprentissages</span>
+        </div>
+        <h1 id="dq-titre" style="margin: 0; font-size: 28px; line-height: 1.3; font-weight: 700; max-width: 30ch">Que signifie « construire des ponts » (bridging) pour favoriser le transfert ?</h1>
+
+        <ul aria-label="Choix corrigés" style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px">
+          <li class="opt" style="color: #5B6482"><span class="l">A</span><span style="padding-top: 3px">Relier deux salles de formation pour faciliter les travaux de groupe</span></li>
+          <li class="opt" style="color: #5B6482"><span class="l">B</span><span style="padding-top: 3px">Remplacer une partie des cours par des visites d'entreprises du secteur, organisées chaque mois</span></li>
+          <li class="opt" style="border-color: #172041; box-shadow: inset 0 0 0 1px #172041">
+            <span class="l" style="background: #FFE45C; border-color: #172041">C</span>
+            <span style="display: flex; flex-direction: column; gap: 6px; padding-top: 3px">
+              <span><span class="mark">Aider explicitement à relier ce qui est appris à d'autres situations où l'utiliser</span></span>
+              <span style="font-size: 14px; font-weight: 700; display: flex; align-items: center; gap: 6px">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17 19 7"></path></svg>
+                Bonne réponse · votre choix
+              </span>
+            </span>
+          </li>
+          <li class="opt" style="color: #5B6482"><span class="l">D</span><span style="padding-top: 3px">Faire un stage dans le secteur du bâtiment et des travaux publics</span></li>
+        </ul>
+      </section>
+
+      <aside aria-label="Correction" style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+        <section style="background: #FFFFFF; border: 1px solid #DDE2EC; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 2px 8px rgba(23,32,65,.06)">
+          <p style="margin: 0; font-size: 17px; font-weight: 700">Bien joué : c'est la bonne réponse.</p>
+          <h2 style="margin: 0; font-size: 15px; font-weight: 700; display: flex; align-items: center; gap: 8px">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C4283A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16z"></path><path d="m13.5 6.5 4 4"></path></svg>
+            Explication
+          </h2>
+          <p style="margin: 0; font-size: 16px; line-height: 1.6">Le formateur pose des questions comme « Dans quelles autres situations de travail pourriez-vous utiliser cette méthode ? » et fait analyser les ressemblances et différences. Ces liens explicites rendent le transfert plus probable.</p>
+          <p style="margin: 0; font-size: 13px; color: #4B5470">Source : Manuel ch. 10 ; Perkins &amp; Salomon (1992)</p>
+          <a href="09-question-desktop.html" style="margin-top: 6px; height: 50px; border-radius: 12px; background: #172041; color: #FFFFFF; text-decoration: none; font-size: 16px; font-weight: 700; display: flex; align-items: center; justify-content: center; gap: 10px">
+            Question suivante
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
+          </a>
+        </section>
+        <p style="margin: 0; padding: 0 4px; font-size: 14px; color: #4B5470; display: flex; flex-wrap: wrap; align-items: center; gap: 6px">Raccourcis : <kbd>1</kbd>–<kbd>4</kbd> pour choisir, <kbd>Entrée</kbd> pour valider puis passer à la suite</p>
+      </aside>
+    </div>
+  </main>
+</div>
+</body>
+</html>

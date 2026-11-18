@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statistiques — maquette</title>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F3F5F9}
+*{box-sizing:border-box}
+::selection{background:#FFE45C;color:#172041}
+a{color:#172041;text-underline-offset:3px}a:hover{color:#2A3870}
+button,a{font-family:inherit}
+:focus-visible{outline:3px solid #172041;outline-offset:2px}
+.hl{background-image:linear-gradient(100deg,rgba(255,228,92,0) .6%,#FFE45C 2.4%,rgba(255,228,92,.82) 8%,rgba(255,228,92,.72) 92%,#FFE45C 97%,rgba(255,228,92,0) 99.4%);-webkit-box-decoration-break:clone;box-decoration-break:clone;border-radius:7px 3px 8px 4px;padding:1px 5px;margin:0 -5px}
+.track{height:8px;border-radius:6px;background:#E6EAF2;overflow:hidden}
+.stroke{height:8px;border-radius:6px 3px 7px 3px;background-image:linear-gradient(100deg,rgba(255,228,92,.35) 0%,#FFE45C 4%,rgba(255,228,92,.82) 55%,#FFE45C 96%,rgba(255,228,92,.4) 100%)}
+.row{padding:9px 0;display:grid;grid-template-columns:minmax(0,1fr) 44px;column-gap:12px;row-gap:6px;align-items:center;border-bottom:1px solid #E6EAF2}
+.row .n{font-size:14px}
+.row .p{font-size:14px;font-weight:700;text-align:right;font-variant-numeric:tabular-nums}
+.row .track{grid-column:1 / -1}
+.day{height:40px;border-radius:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:12px;gap:2px}
+</style>
+</head>
+<body>
+<div style="width: 390px; height: 844px; position: relative; overflow: hidden; background: #F3F5F9; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; color: #172041; display: flex; flex-direction: column">
+
+  <header style="background: #172041; color: #FFFFFF; padding: 22px 20px 20px; display: flex; flex-direction: column; gap: 4px">
+    <h1 style="margin: 0; font-size: 22px; font-weight: 700">Statistiques</h1>
+    <p style="margin: 0; font-size: 14px; color: #C9D0E6">1 248 réponses depuis le 3 novembre</p>
+  </header>
+
+  <main style="flex: 1; overflow-y: auto; padding: 18px 16px 96px; display: flex; flex-direction: column; gap: 22px">
+
+    <section aria-labelledby="s-regularite" style="display: flex; flex-direction: column; gap: 10px">
+      <h2 id="s-regularite" style="margin: 0; font-size: 17px; font-weight: 700">Régularité <span style="font-weight: 400; font-size: 15px; color: #4B5470">· 6 jours d'affilée</span></h2>
+      <ol aria-label="Sept derniers jours" style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px">
+        <li class="day" style="background: #FFFFFF; border: 1px solid #DDE2EC; color: #4B5470">Mer<span aria-label="aucune séance">–</span></li>
+        <li class="day" style="background: #FFE45C; font-weight: 700">Jeu<span>24</span></li>
+        <li class="day" style="background: #FFE45C; font-weight: 700">Ven<span>40</span></li>
+        <li class="day" style="background: #FFE45C; font-weight: 700">Sam<span>12</span></li>
+        <li class="day" style="background: #FFE45C; font-weight: 700">Dim<span>20</span></li>
+        <li class="day" style="background: #FFE45C; font-weight: 700">Lun<span>36</span></li>
+        <li class="day" style="background: #172041; color: #FFFFFF; font-weight: 700">Mar<span>40</span></li>
+      </ol>
+      <p style="margin: 0; font-size: 13px; color: #4B5470">Nombre de questions travaillées par jour</p>
+    </section>
+
+    <section aria-labelledby="s-chapitres" style="display: flex; flex-direction: column; gap: 6px">
+      <h2 id="s-chapitres" style="margin: 0; font-size: 17px; font-weight: 700">Réussite par chapitre</h2>
+      <div style="background: #FFFFFF; border: 1px solid #DDE2EC; border-radius: 16px; padding: 4px 16px 8px">
+        <div class="row"><span class="n">1 · Andragogie</span><span class="p">78 %</span><div class="track"><div class="stroke" style="width: 78%"></div></div></div>
+        <div class="row"><span class="n">2 · Approche par compétences</span><span class="p">63 %</span><div class="track"><div class="stroke" style="width: 63%"></div></div></div>
+        <div class="row"><span class="n">3 · Charge cognitive</span><span class="p" style="color: #A3192B">44 %</span><div class="track"><div class="stroke" style="width: 44%"></div></div></div>
+        <div class="row"><span class="n">4 · Métacognition</span><span class="p">70 %</span><div class="track"><div class="stroke" style="width: 70%"></div></div></div>
+        <div class="row"><span class="n">5 · Scénario pédagogique</span><span class="p">66 %</span><div class="track"><div class="stroke" style="width: 66%"></div></div></div>
+        <div class="row"><span class="n">6 · Questionnement</span><span class="p" style="color: #A3192B">37 %</span><div class="track"><div class="stroke" style="width: 37%"></div></div></div>
+        <div class="row"><span class="n">7 · Ludopédagogie</span><span class="p">81 %</span><div class="track"><div class="stroke" style="width: 81%"></div></div></div>
+        <div class="row"><span class="n">8 · Pédagogie différenciée</span><span class="p">59 %</span><div class="track"><div class="stroke" style="width: 59%"></div></div></div>
+        <div class="row"><span class="n">9 · Inclusion et accessibilité</span><span class="p">74 %</span><div class="track"><div class="stroke" style="width: 74%"></div></div></div>
+        <div class="row"><span class="n">10 · Transfert des apprentissages</span><span class="p" style="color: #A3192B">41 %</span><div class="track"><div class="stroke" style="width: 41%"></div></div></div>
+        <div class="row"><span class="n">11 · Pratique réflexive</span><span class="p">62 %</span><div class="track"><div class="stroke" style="width: 62%"></div></div></div>
+        <div class="row" style="border-bottom: 0"><span class="n">12 · Neutralité et déontologie</span><span class="p">85 %</span><div class="track"><div class="stroke" style="width: 85%"></div></div></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="s-examens" style="display: flex; flex-direction: column; gap: 10px">
+      <h2 id="s-examens" style="margin: 0; font-size: 17px; font-weight: 700">Examens blancs</h2>
+      <ul style="list-style: none; margin: 0; padding: 0 16px; background: #FFFFFF; border: 1px solid #DDE2EC; border-radius: 16px">
+        <li style="padding: 13px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #E6EAF2; font-size: 15px"><span>18 novembre</span><strong style="font-variant-numeric: tabular-nums"><span class="hl">15,5</span> / 20</strong></li>
+        <li style="padding: 13px 0; display: flex; justify-content: space-between; border-bottom: 1px solid #E6EAF2; font-size: 15px"><span>11 novembre</span><strong style="font-variant-numeric: tabular-nums">13,5 / 20</strong></li>
+        <li style="padding: 13px 0; display: flex; justify-content: space-between; font-size: 15px"><span>4 novembre</span><strong style="font-variant-numeric: tabular-nums">12 / 20</strong></li>
+      </ul>
+    </section>
+
+    <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px">
+      <button type="button" style="height: 44px; padding: 0 14px; border-radius: 12px; border: 1.5px solid #172041; background: #FFFFFF; color: #172041; font-size: 15px; font-weight: 700; cursor: pointer">Exporter ma progression</button>
+      <button type="button" style="height: 44px; padding: 0 4px; border: 0; background: none; color: #A3192B; font-size: 15px; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; cursor: pointer">Réinitialiser</button>
+    </div>
+  </main>
+
+  <nav aria-label="Navigation principale" style="position: absolute; left: 0; right: 0; bottom: 0; height: 76px; background: #FFFFFF; border-top: 1px solid #DDE2EC; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); padding: 6px 4px 10px">
+    <a href="01-accueil-mobile.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-decoration: none; color: #5B6482; font-size: 12px">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"></path><path d="M5 9.5V21h14V9.5"></path></svg>
+      <span>Accueil</span>
+    </a>
+    <a href="04-entrainement-mobile.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-decoration: none; color: #5B6482; font-size: 12px">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16"></path><path d="M7 12h10"></path><path d="M10 18h4"></path></svg>
+      <span>Entraîner</span>
+    </a>
+    <a href="05-examen-mobile.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-decoration: none; color: #5B6482; font-size: 12px">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"></circle><path d="M12 9v4l2.5 2.5"></path><path d="M9 2h6"></path></svg>
+      <span>Examen</span>
+    </a>
+    <a href="03-correction-mobile.html" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-decoration: none; color: #5B6482; font-size: 12px; position: relative">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"></path><path d="M3 3v5h5"></path></svg>
+      <span>Erreurs</span>
+      <span aria-label="23 erreurs à revoir" style="position: absolute; top: 2px; left: 50%; margin-left: 6px; min-width: 20px; height: 20px; padding: 0 6px; border-radius: 999px; background: #C4283A; color: #FFFFFF; font-size: 11px; font-weight: 700; display: flex; align-items: center; justify-content: center">23</span>
+    </a>
+    <a href="07-stats-mobile.html" aria-current="page" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-decoration: none; color: #172041; font-size: 12px; font-weight: 700">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"></path><path d="M7 17v-6"></path><path d="M12 17V5"></path><path d="M17 17v-9"></path></svg>
+      <span class="hl">Stats</span>
+    </a>
+  </nav>
+</div>
+</body>
+</html>

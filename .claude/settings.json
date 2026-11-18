@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(npx create-next-app *)",
+      "Bash(npx playwright *)",
+      "Bash(npx vitest *)",
+      "Bash(npx eslint *)",
+      "Bash(npx tsc *)",
+      "Bash(git init)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)"
+    ],
+    "ask": [
+      "Edit(/data/**)",
+      "Edit(/docs/**)",
+      "Edit(/maquettes/**)",
+      "Bash(git push)",
+      "Bash(git push *)",
+      "Bash(gh repo create *)",
+      "Bash(vercel *)",
+      "Bash(npx vercel *)"
+    ],
+    "deny": [
+      "Bash(sudo *)",
+      "Bash(git push --force *)",
+      "Bash(git reset --hard *)"
+    ]
+  }
+}

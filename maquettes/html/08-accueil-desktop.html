@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tableau de bord — desktop — maquette</title>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F3F5F9}
+*{box-sizing:border-box}
+::selection{background:#FFE45C;color:#172041}
+a{color:#172041;text-underline-offset:3px}a:hover{color:#2A3870}
+button,a{font-family:inherit}
+:focus-visible{outline:3px solid #172041;outline-offset:2px}
+.hl{background-image:linear-gradient(100deg,rgba(255,228,92,0) .6%,#FFE45C 2.4%,rgba(255,228,92,.82) 8%,rgba(255,228,92,.72) 92%,#FFE45C 97%,rgba(255,228,92,0) 99.4%);-webkit-box-decoration-break:clone;box-decoration-break:clone;border-radius:7px 3px 8px 4px;padding:1px 6px;margin:0 -6px}
+.track{height:10px;border-radius:6px;background:#E6EAF2;overflow:hidden}
+.stroke{height:10px;border-radius:6px 3px 7px 3px;background-image:linear-gradient(100deg,rgba(255,228,92,.35) 0%,#FFE45C 4%,rgba(255,228,92,.82) 55%,#FFE45C 96%,rgba(255,228,92,.4) 100%)}
+.nav a{min-height:44px;display:flex;align-items:center;gap:12px;padding:0 14px;border-radius:10px;color:#C9D0E6;text-decoration:none;font-size:15px}
+.nav a:hover{background:rgba(255,255,255,.08);color:#FFFFFF}
+.nav a[aria-current="page"]{background:rgba(255,255,255,.1);color:#FFFFFF;font-weight:700}
+.panel{background:#FFFFFF;border:1px solid #DDE2EC;border-radius:16px;padding:22px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th{font-size:13px;font-weight:700;color:#4B5470;text-align:left;padding:10px 12px;border-bottom:1px solid #DDE2EC;white-space:nowrap}
+td{padding:12px;border-bottom:1px solid #E6EAF2;vertical-align:middle}
+tbody tr:hover{background:#F8F9FC}
+td.num{font-variant-numeric:tabular-nums}
+</style>
+</head>
+<body>
+<div style="min-height: 100vh; background: #F3F5F9; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; color: #172041; display: flex; flex-wrap: wrap">
+
+  <aside style="flex: 1 1 248px; max-width: 280px; background: #172041; color: #FFFFFF; padding: 28px 18px; display: flex; flex-direction: column; gap: 32px">
+    <div style="display: flex; flex-direction: column; gap: 4px; padding: 0 8px">
+      <p style="margin: 0; font-size: 20px; font-weight: 700">Pédagogie moderne</p>
+      <p style="margin: 0; font-size: 13px; color: #C9D0E6">Concours de promotion interne</p>
+    </div>
+    <nav class="nav" aria-label="Navigation principale" style="display: flex; flex-direction: column; gap: 4px">
+      <a href="08-accueil-desktop.html" aria-current="page">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"></path><path d="M5 9.5V21h14V9.5"></path></svg>
+        Tableau de bord
+      </a>
+      <a href="09-question-desktop.html">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"></path><path d="M4 19V5"></path></svg>
+        Parcours
+      </a>
+      <a href="04-entrainement-mobile.html">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16"></path><path d="M7 12h10"></path><path d="M10 18h4"></path></svg>
+        Entraînement
+      </a>
+      <a href="05-examen-mobile.html">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"></circle><path d="M12 9v4l2.5 2.5"></path><path d="M9 2h6"></path></svg>
+        Examen blanc
+      </a>
+      <a href="03-correction-mobile.html">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"></path><path d="M3 3v5h5"></path></svg>
+        <span style="flex: 1">Erreurs à revoir</span>
+        <span style="min-width: 24px; height: 22px; padding: 0 7px; border-radius: 999px; background: #C4283A; color: #FFFFFF; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center">14</span>
+      </a>
+      <a href="07-stats-mobile.html">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"></path><path d="M7 17v-6"></path><path d="M12 17V5"></path><path d="M17 17v-9"></path></svg>
+        Statistiques
+      </a>
+    </nav>
+    <p style="margin: auto 0 0; padding: 0 8px; font-size: 13px; line-height: 1.5; color: #C9D0E6">Votre progression est enregistrée sur cet appareil. Exportez-la depuis Statistiques pour la retrouver ailleurs.</p>
+  </aside>
+
+  <main style="flex: 999 1 560px; min-width: 0; padding: 36px 48px 56px">
+    <div style="max-width: 1120px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px">
+
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap">
+        <div style="display: flex; flex-direction: column; gap: 6px">
+          <h1 style="margin: 0; font-size: 30px; font-weight: 700">Tableau de bord</h1>
+          <p style="margin: 0; font-size: 15px; color: #4B5470">Mardi 18 novembre · 6 jours d'entraînement d'affilée</p>
+        </div>
+        <a href="05-examen-mobile.html" style="height: 46px; padding: 0 18px; border-radius: 12px; border: 1.5px solid #172041; color: #172041; text-decoration: none; font-size: 15px; font-weight: 700; display: flex; align-items: center; gap: 8px">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"></circle><path d="M12 9v4l2.5 2.5"></path><path d="M9 2h6"></path></svg>
+          Lancer un examen blanc
+        </a>
+      </div>
+
+      <div style="display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 20px">
+        <section class="panel" aria-labelledby="d-reprendre" style="display: flex; flex-direction: column; gap: 18px">
+          <div style="display: flex; flex-direction: column; gap: 8px">
+            <h2 id="d-reprendre" style="margin: 0; font-size: 20px; font-weight: 700">Reprendre le parcours</h2>
+            <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap">
+              <span style="background: #FFC978; font-size: 13px; font-weight: 700; padding: 3px 10px; border-radius: 999px">Moyen</span>
+              <span style="font-size: 15px; color: #4B5470">Question 127 sur 324 · Chapitre 3, Charge cognitive</span>
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 8px">
+            <div style="display: flex; justify-content: space-between; font-size: 15px"><span><strong>126</strong> questions réussies sur 324</span><strong style="font-variant-numeric: tabular-nums">39 %</strong></div>
+            <div class="track" style="height: 14px"><div class="stroke" style="width: 39%; height: 14px"></div></div>
+          </div>
+          <a href="09-question-desktop.html" style="align-self: flex-start; height: 50px; padding: 0 22px; border-radius: 12px; background: #172041; color: #FFFFFF; text-decoration: none; font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 10px">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15l12.5-7.5z"></path></svg>
+            Continuer à la question 127
+          </a>
+        </section>
+
+        <section class="panel" aria-labelledby="d-erreurs" style="display: flex; flex-direction: column; gap: 12px">
+          <div style="display: flex; justify-content: space-between; align-items: baseline">
+            <h2 id="d-erreurs" style="margin: 0; font-size: 18px; font-weight: 700">Erreurs à revoir <span style="color: #A3192B">· 14</span></h2>
+            <a href="03-correction-mobile.html" style="font-size: 15px; font-weight: 700">Tout revoir</a>
+          </div>
+          <ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column">
+            <li style="padding: 10px 0; border-bottom: 1px solid #E6EAF2; display: flex; flex-direction: column; gap: 3px">
+              <a href="03-correction-mobile.html" style="font-size: 15px; text-decoration: none">Une question fermée est-elle forcément de bas niveau cognitif ?</a>
+              <span style="font-size: 13px; color: #4B5470">Difficile · Questionnement</span>
+            </li>
+            <li style="padding: 10px 0; border-bottom: 1px solid #E6EAF2; display: flex; flex-direction: column; gap: 3px">
+              <a href="03-correction-mobile.html" style="font-size: 15px; text-decoration: none">Quelles sont les composantes du modèle de Baddeley et Hitch (1974) ?</a>
+              <span style="font-size: 13px; color: #4B5470">Difficile · Charge cognitive</span>
+            </li>
+            <li style="padding: 10px 0; display: flex; flex-direction: column; gap: 3px">
+              <a href="03-correction-mobile.html" style="font-size: 15px; text-decoration: none">Sur quoi repose la distinction entre transfert proche et lointain ?</a>
+              <span style="font-size: 13px; color: #4B5470">Difficile · Transfert des apprentissages</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div style="display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 20px">
+        <section class="panel" aria-labelledby="d-niveaux" style="display: flex; flex-direction: column; gap: 6px">
+          <h2 id="d-niveaux" style="margin: 0 0 6px; font-size: 18px; font-weight: 700">Réussite par niveau</h2>
+          <div style="display: grid; grid-template-columns: 96px minmax(0, 1fr) 56px; align-items: center; column-gap: 16px; row-gap: 14px">
+            <span style="justify-self: start; background: #A6E9F5; font-size: 13px; font-weight: 700; padding: 3px 10px; border-radius: 999px">Facile</span>
+            <div class="track"><div class="stroke" style="width: 82%"></div></div>
+            <strong style="text-align: right; font-variant-numeric: tabular-nums">82 %</strong>
+            <span style="justify-self: start; background: #FFC978; font-size: 13px; font-weight: 700; padding: 3px 10px; border-radius: 999px">Moyen</span>
+            <div class="track"><div class="stroke" style="width: 61%"></div></div>
+            <strong style="text-align: right; font-variant-numeric: tabular-nums">61 %</strong>
+            <span style="justify-self: start; background: #FFA8D6; font-size: 13px; font-weight: 700; padding: 3px 10px; border-radius: 999px">Difficile</span>
+            <div class="track"><div class="stroke" style="width: 34%"></div></div>
+            <strong style="text-align: right; font-variant-numeric: tabular-nums">34 %</strong>
+          </div>
+        </section>
+
+        <section class="panel" aria-labelledby="d-examen" style="display: flex; flex-direction: column; gap: 10px">
+          <h2 id="d-examen" style="margin: 0; font-size: 18px; font-weight: 700">Dernier examen blanc</h2>
+          <p style="margin: 0; font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums"><span class="hl">13,5</span> sur 20</p>
+          <p style="margin: 0; font-size: 15px; color: #4B5470">Mardi 11 novembre · 27 bonnes réponses sur 40</p>
+        </section>
+      </div>
+
+      <section class="panel" aria-labelledby="d-chapitres" style="display: flex; flex-direction: column; gap: 10px; padding-bottom: 10px">
+        <h2 id="d-chapitres" style="margin: 0; font-size: 18px; font-weight: 700">Chapitres</h2>
+        <div style="overflow-x: auto">
+          <table>
+            <thead>
+              <tr><th scope="col">Chapitre</th><th scope="col">Tentées</th><th scope="col" style="width: 34%">Réussite</th><th scope="col">Dernière séance</th><th scope="col"><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Action</span></th></tr>
+            </thead>
+            <tbody>
+              <tr><td>1 · Andragogie</td><td class="num">19 / 27</td><td><div style="display: flex; align-items: center; gap: 12px"><div class="track" style="flex: 1"><div class="stroke" style="width: 78%"></div></div><strong class="num" style="width: 44px; text-align: right">78 %</strong></div></td><td>Aujourd'hui</td><td style="text-align: right"><a href="04-entrainement-mobile.html" style="font-weight: 700">S'entraîner</a></td></tr>
+              <tr><td>2 · Approche par compétences</td><td class="num">16 / 27</td><td><div style="display: flex; align-items: center; gap: 12px"><div class="track" style="flex: 1"><div class="stroke" style="width: 63%"></div></div><strong class="num" style="width: 44px; text-align: right">63 %</strong></div></td><td>Hier</td><td style="text-align: right"><a href="04-entrainement-mobile.html" style="font-weight: 700">S'entraîner</a></td></tr>
+              <tr><td>3 · Charge cognitive</td><td class="num">12 / 27</td><td><div style="display: flex; align-items: center; gap: 12px"><div class="track" style="flex: 1"><div class="stroke" style="width: 44%"></div></div><strong class="num" style="width: 44px; text-align: right; color: #A3192B">44 %</strong></div></td><td>Aujourd'hui</td><td style="text-align: right"><a href="04-entrainement-mobile.html" style="font-weight: 700">S'entraîner</a></td></tr>
+              <tr><td>4 · Métacognition</td><td class="num">17 / 27</td><td><div style="display: flex; align-items: center; gap: 12px"><div class="track" style="flex: 1"><div class="stroke" style="width: 70%"></div></div><strong class="num" style="width: 44px; text-align: right">70 %</strong></div></td><td>16 nov.</td><td style="text-align: right"><a href="04-entrainement-mobile.html" style="font-weight: 700">S'entraîner</a></td></tr>
+              <tr><td>5 · Scénario pédagogique</td><td class="num">17 / 27</td><td><div style="display: flex; align-items: center; gap: 12px"><div class="track" style="flex: 1"><div class="stroke" style="width: 66%"></div></div><strong class="num" style="width: 44px; text-align: right">66 %</strong></div></td><td>15 nov.</td><td style="text-align: right"><a href="04-entrainement-mobile.html" style="font-weight: 700">S'entraîner</a></td></tr>
+              <tr><td>6 · Questionnement</td><td class="num">10 / 27</td><td><div style="display: flex; align-items: center; gap: 12px"><div class="track" style="flex: 1"><div class="stroke" style="width: 37%"></div></div><strong class="num" style="width: 44px; text-align: right; color: #A3192B">37 %</strong></div></td><td>Hier</td><td style="text-align: right"><a href="04-entrainement-mobile.html" style="font-weight: 700">S'entraîner</a></td></tr>
+              <tr><td>7 · Ludopédagogie</td><td class="num">20 / 27</td><td><div style="display: flex; align-items: center; gap: 12px"><div class="track" style="flex: 1"><div class="stroke" style="width: 81%"></div></div><strong class="num" style="width: 44px; text-align: right">81 %</strong></div></td><td>14 nov.</td><td style="text-align: right"><a href="04-entrainement-mobile.html" style="font-weight: 700">S'entraîner</a></td></tr>
+              <tr><td>8 · Pédagogie différenciée</td><td class="num">14 / 27</td><td><div style="display: flex; align-items: center; gap: 12px"><div class="track" style="flex: 1"><div class="stroke" style="width: 59%"></div></div><strong class="num" style="width: 44px; text-align: right">59 %</strong></div></td><td>13 nov.</td><td style="text-align: right"><a href="04-entrainement-mobile.html" style="font-weight: 700">S'entraîner</a></td></tr>
+              <tr><td>9 · Inclusion et accessibilité</td><td class="num">18 / 27</td><td><div style="display: flex; align-items: center; gap: 12px"><div class="track" style="flex: 1"><div class="stroke" style="width: 74%"></div></div><strong class="num" style="width: 44px; text-align: right">74 %</strong></div></td><td>12 nov.</td><td style="text-align: right"><a href="04-entrainement-mobile.html" style="font-weight: 700">S'entraîner</a></td></tr>
+              <tr><td>10 · Transfert des apprentissages</td><td class="num">11 / 27</td><td><div style="display: flex; align-items: center; gap: 12px"><div class="track" style="flex: 1"><div class="stroke" style="width: 41%"></div></div><strong class="num" style="width: 44px; text-align: right; color: #A3192B">41 %</strong></div></td><td>Hier</td><td style="text-align: right"><a href="04-entrainement-mobile.html" style="font-weight: 700">S'entraîner</a></td></tr>
+              <tr><td>11 · Pratique réflexive</td><td class="num">15 / 27</td><td><div style="display: flex; align-items: center; gap: 12px"><div class="track" style="flex: 1"><div class="stroke" style="width: 62%"></div></div><strong class="num" style="width: 44px; text-align: right">62 %</strong></div></td><td>11 nov.</td><td style="text-align: right"><a href="04-entrainement-mobile.html" style="font-weight: 700">S'entraîner</a></td></tr>
+              <tr><td style="border-bottom: 0">12 · Neutralité et déontologie</td><td class="num" style="border-bottom: 0">21 / 27</td><td style="border-bottom: 0"><div style="display: flex; align-items: center; gap: 12px"><div class="track" style="flex: 1"><div class="stroke" style="width: 85%"></div></div><strong class="num" style="width: 44px; text-align: right">85 %</strong></div></td><td style="border-bottom: 0">10 nov.</td><td style="text-align: right; border-bottom: 0"><a href="04-entrainement-mobile.html" style="font-weight: 700">S'entraîner</a></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+</div>
+</body>
+</html>
